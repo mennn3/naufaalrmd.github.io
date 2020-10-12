@@ -1,0 +1,96 @@
+*{
+	font-family: Graphik,Helvetica,Arial,sans-serif,EmojiOne !important;
+}
+body{
+	background-color:#F24463 !important;
+	
+}
+
+.loginform{
+	width:580px;
+	height: 550px;
+	top: 10vh;
+	position: absolute;
+	background-color: white;
+	border-radius: 20px;
+}
+.mainform{
+	margin: 0 auto;
+	width: 80%;
+}
+.mainform h1{
+	font-family: CooperBold,Georgia,Times,serif !important;
+	margin-bottom: 15px;
+	text-align: center;
+	letter-spacing: 0.3px;
+	font-weight: 600;
+	font-size: 30px;
+	word-spacing: 1px;
+}
+.form-control{
+	height: 55px;
+	border:10px solid;
+}
+.button{
+	border-radius:100px;
+	border:1px solid;
+	height: 55px;
+	width: 200px;
+	background-color:#f24463;
+	color: white;
+}
+.with p{
+	margin-top:25px;
+	letter-spacing: 0.48px;
+	color: #8e8f91;
+}
+button{
+	cursor: pointer;
+}
+.with button{
+	border-radius:100px;
+	border:0.50px solid #8e8f91;
+	height: 55px;
+	width: 200px;
+	background-color:white;
+	color: #f24463;
+}
+img{
+	margin: 0 auto;
+	width: 120px;
+	padding: 20px 0 10px 0;
+}
+.form-group{
+	margin: 0 auto;
+	width: 80%;
+
+}
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .loginform {
+  	position: absolute;
+  	top:10vh;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+  }
+  img{
+	margin: 0 auto;
+	width: 100px;
+	padding: 10px 0 3px 0;
+}
+.with button{
+	margin:5px;
+}
+.mainform h1{
+	
+	text-align: center;
+	letter-spacing: 0.3px;
+	font-weight: 600;
+	font-size: 18px;
+	word-spacing: 1px;
+}
+
+}
+
+/* responsive */
